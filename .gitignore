@@ -184,3 +184,8 @@ cython_debug/
 data/raw/
 cache/
 *.blend1
+
+# Generated 3D meshes (rebuildable)
+*.obj
+*.glb
+
