@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dallas3d"
+version = "1.0.0"
+description = "Reproducible LOD1-style Dallas building model and urban geometry experiments"
+requires-python = ">=3.11"
+dependencies = [
+  "geopandas>=1.0",
+  "matplotlib>=3.9",
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "shapely>=2.0",
+  "trimesh>=4.5",
+  "mapbox-earcut>=1.0",
+]
+
+[project.optional-dependencies]
+fetch = ["osmnx>=2.0"]
+dev = ["pytest>=8.3", "ruff>=0.9"]
+
+[project.scripts]
+dallas3d = "dallas3d.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

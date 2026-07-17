@@ -185,6 +185,9 @@ data/raw/
 cache/
 *.blend1
 
+# Local render intermediates
+renders/raw/
+
 # Generated 3D meshes (rebuildable)
 *.obj
 *.glb

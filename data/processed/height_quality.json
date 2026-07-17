@@ -1,0 +1,21 @@
+{
+  "building_count": 1553,
+  "crs": "EPSG:32614",
+  "study_width_m": 3620.03,
+  "study_height_m": 3573.43,
+  "height_source_counts": {
+    "typology_area": 1190,
+    "osm_levels": 205,
+    "osm_height": 158
+  },
+  "height_confidence_counts": {
+    "low": 1190,
+    "medium": 205,
+    "high": 158
+  },
+  "height_min_m": 2.5,
+  "height_median_m": 11.99,
+  "height_p90_m": 21.23,
+  "height_max_m": 280.72,
+  "observed_or_levels_pct": 23.37
+}

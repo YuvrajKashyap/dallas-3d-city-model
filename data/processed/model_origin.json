@@ -1,0 +1,9 @@
+{
+  "crs": "EPSG:32614",
+  "origin_easting_m": 706485.507,
+  "origin_northing_m": 3629045.887,
+  "mesh_count": 1553,
+  "skipped_polygon_count": 0,
+  "vertex_count": 34072,
+  "face_count": 62092
+}
