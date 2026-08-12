@@ -106,7 +106,7 @@ pytest
 │   ├── processed/                 # Minimal dataset, reports, and experiments
 │   └── meshes/                    # Rebuildable local mesh output (ignored)
 ├── docs/                           # Architecture, methodology, research, provenance
-├── screenshots/                    # Final recruiter and portfolio visuals
+├── screenshots/                    # Final project and portfolio visuals
 ├── scripts/                        # OSM fetch and Blender render entrypoints
 ├── src/dallas3d/                   # Reusable geospatial and geometry package
 └── tests/                          # Deterministic unit tests
